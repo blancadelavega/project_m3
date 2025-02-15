@@ -74,21 +74,13 @@ The modeling process was carried out in the `PrimeModel` notebook and followed t
    cd your_repository
    ```
 
-2. **Install Dependencies:**
-
-   If using `pip`:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *(Ensure you create a `requirements.txt` file listing the required libraries, if not already available.)*
-
-3. **Run the Notebooks:**
+2. **Run the Notebooks:**
 
    - Open the development environment (e.g., [Visual Studio Code](https://code.visualstudio.com/) or Jupyter Notebook).
    - Run the notebooks in the `notebooks` directory sequentially, starting with `Basic_EDA` to understand the data, followed by the modeling notebooks.
    - The `PrimeModel` notebook contains the full pipeline for the final model.
 
-4. **Generate Submission:**
+3. **Generate Submission:**
    - Once the model is trained and predictions are made on the test set, the `PrimeModel.csv` file will be saved in `data/sample_submissions/`.
    - This file is formatted correctly for submission.
 
